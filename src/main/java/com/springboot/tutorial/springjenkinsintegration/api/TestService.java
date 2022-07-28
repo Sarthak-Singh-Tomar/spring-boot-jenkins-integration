@@ -7,6 +7,6 @@ public class TestService {
 
     public void testClass() {
         System.out.println("service called...");
-        System.out.printl("Again next test commit previous not build!!!");
+        System.out.println("Again next test commit previous not build!!!");
     }
 }
