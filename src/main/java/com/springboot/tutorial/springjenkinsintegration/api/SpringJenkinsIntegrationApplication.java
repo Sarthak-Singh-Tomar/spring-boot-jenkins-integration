@@ -35,6 +35,7 @@ public class SpringJenkinsIntegrationApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application executed...");
+        logger.info("Test application started");
 		SpringApplication.run(SpringJenkinsIntegrationApplication.class, args);
 	}
 }
