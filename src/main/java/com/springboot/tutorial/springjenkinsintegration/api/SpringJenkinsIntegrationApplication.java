@@ -30,6 +30,7 @@ public class SpringJenkinsIntegrationApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application started...");
+		logger.info("Test commit");
 	}
 
 	public static void main(String[] args) {
