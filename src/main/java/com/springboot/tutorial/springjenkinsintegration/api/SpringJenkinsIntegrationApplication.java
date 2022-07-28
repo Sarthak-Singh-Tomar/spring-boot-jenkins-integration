@@ -18,7 +18,7 @@ public class SpringJenkinsIntegrationApplication {
 
 	/*@Autowired
 	private TestService service;*/
-	public static Logger logger =
+	//public static Logger logger =
 			LoggerFactory.getLogger(SpringJenkinsIntegrationApplication.class);
 
 	/*@PostConstruct
