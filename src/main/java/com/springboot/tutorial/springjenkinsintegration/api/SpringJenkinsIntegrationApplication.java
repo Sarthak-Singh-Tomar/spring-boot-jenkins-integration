@@ -29,13 +29,15 @@ public class SpringJenkinsIntegrationApplication {
 
 	@PostConstruct
 	public void init() {
-		logger.info("Application started...");
-		logger.info("Test commit");
+//		logger.info("Application started...");
+//		logger.info("Test commit");
+		logger.info("Constructor: final commit as Jenkins tutoral completed successfully.");
 	}
 
 	public static void main(String[] args) {
-		logger.info("Application executed...");
-        logger.info("Test application started");
+//		logger.info("Application executed...");
+//        logger.info("Test application started");
+		logger.info("Application: final commit as Jenkins tutoral completed successfully");
 		SpringApplication.run(SpringJenkinsIntegrationApplication.class, args);
 	}
 }

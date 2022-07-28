@@ -17,6 +17,7 @@ class SpringJenkinsIntegrationApplicationTests {
 	void contextLoads() {
 		logger.info("Test case executing...");
 		assertTrue(true);
+		logger.info("Test: final commit as Jenkins tutoral completed successfully");
 	}
 
 }
